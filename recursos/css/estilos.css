@@ -1,0 +1,140 @@
+#cabecera{
+    background: #afd18b;
+    height: 38px;
+    /*width: 800px;*/
+    width: 100%;
+    /*margin: 0 auto;*/
+    top: 0;
+    /*padding-top: 15px;*/
+}
+#cabecera h5{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#contenido{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.rowcabecera{
+    padding: 0;
+    margin: 0;
+}
+.mosaico{
+    border: 2px #f88315 solid;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+}
+.espaciomosaicos{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#panelesConsultas{
+    width: 800px;
+    margin: 0 auto;
+}
+.mosaico.vehiculos{
+    background: url(../imagenes/panel_vehiculos.jpg) no-repeat;
+}
+.mosaico.inmuebles{
+    background: url(../imagenes/panel_inmuebles.jpg) no-repeat;
+}
+.mosaico.telefonos{
+    background: url(../imagenes/panel_telefonos.jpg) no-repeat;
+}
+.mosaico.muebles{
+    background: url(../imagenes/panel_muebles.jpg) no-repeat;
+}
+
+.divCortina{
+    position: absolute;
+    height: 150px;
+    width: 90%;
+    z-index: 50;
+    background: #ffffff;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* IE 5-7 */
+    filter: alpha(opacity=50);
+    /* Netscape */
+    -moz-opacity: 0.5;
+    /* Safari 1.x */
+    -khtml-opacity: 0.5;
+    /* Good browsers */
+    opacity: 0.5;
+    cursor: pointer;
+}
+.divCortina:hover{
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* IE 5-7 */
+    filter: alpha(opacity=0);
+    /* Netscape */
+    -moz-opacity: 0;
+    /* Safari 1.x */
+    -khtml-opacity: 0;
+    /* Good browsers */
+    opacity: 0;
+}
+.textoPanel{
+    background: #585858;
+    position: absolute;
+    z-index: 40;
+    height: 50px;
+    display: none;
+    margin: 0;
+    padding: 0;
+    bottom: 5px;
+    width:83%;
+}
+.textoPanel p{
+    color: #ffffff;
+}
+
+#barraFrmBusqueda{
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width: 800px;
+    z-index: 100;
+}
+
+.contenidoBarraBusqueda{
+    background-color: #ffffff;
+    border: solid 2px #f88315;
+    border-bottom: none;
+    padding-top: 5px;
+}
+
+body .modal-dialog {
+    /* new custom width */
+    width: 650px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    /*margin-left: -300px;*/
+}
+
+body .datepicker{
+    z-index: 1200 !important;
+}
+
+.tituloNombre{
+    font-weight:bold;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.markrow { background-color:#fbc361 !important; }
+
+.contenedor-rubros{
+    margin-top: 10px;
+}
