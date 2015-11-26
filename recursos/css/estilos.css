@@ -1,5 +1,5 @@
 #cabecera{
-    background: #ff8606;
+    background: #afd18b;
     height: 38px;
     /*width: 800px;*/
     width: 100%;
@@ -131,4 +131,10 @@ body .datepicker{
     font-weight:bold;
     color: #ffffff;
     font-size: 10px;
+}
+
+.markrow { background-color:#fbc361 !important; }
+
+.contenedor-rubros{
+    margin-top: 10px;
 }
